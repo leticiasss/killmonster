@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matador de Monstros</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="panel scores">
+            <div class="score">
+                <h1>Player</h1>
+                <div class="life-bar">
+                    <div class="life" :class="{danger: playerLife <= 20}" :style="{width: playerLife + '%'}"></div>
+                </div>
+                <div>{{playerLife}}%</div>
+            </div>
+            <div class="score">
+                <h1>Monster</h1>
+                <div class="life-bar">
+                    <div class="life" :class="{danger: monsterLife <= 20}" :style="{width: monsterLife + '%'}" ></div>
+                </div>
+                <div>{{monsterLife}}%</div>
+            </div>
+        </div>
+        <div v-if="hasResult" class="panel result">
+            <div v-if="monsterLife == 0" class="win">Você ganhou!! :)</div>
+            <div v-else class="lose">Você perdeu!! :(</div>
+        </div>
+        <div class="panel buttons">
+            <button class="btn">Attack</button>
+            <button class="btn">Special Attack</button>
+            <button class="btn">Health</button>
+            <button class="btn">Quit</button>
+            <button class="btn">Start</button>
+        </div>
+        <div class="panel logs"></div>
+    </div>
+   
+   
+   
+    <script src="app.js"></script>
+</body>
+</html>
