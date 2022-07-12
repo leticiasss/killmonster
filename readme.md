@@ -1,6 +1,6 @@
 # O Matador de Monstros
 
-Jogo criado para exercitar o que visto até o momento, no curso de VueJS. Curso feito na Udemy, com o instrutor Leonardo Moura Leitao da Cod3r.
+Jogo criado para exercitar o que foi visto até o momento, no curso de VueJS. Curso feito na Udemy, com o instrutor Leonardo Moura Leitao da Cod3r.
 
 ## Instruções do jogo:
 
