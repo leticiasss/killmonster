@@ -57,3 +57,64 @@ html{
 .result .lose{
     color: red;
 }
+
+/*Buttons / Control Game Area*/
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: none;
+}
+.start{
+    background-color: #5f5ffd;
+    color: #fff;
+}
+.attack{
+    background-color: #fd4b4b;
+    color: #fff;
+}
+.special-attack{
+    background-color: #f87342;
+    color: #fff;
+}
+.heal{
+    background-color: #64c064;
+    color: #fff;
+}
+.quit{
+    background-color: black;
+    color: white;
+}
+/*Logs Area*/
+.logs ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+}
+.logs ul li{
+    display: flex;
+    justify-content: center;
+    margin: 4px 0;
+    padding: 3px 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.player{
+    background-color: #6868f8a4;
+    color: #fff;
+}
+.monster{
+    background-color: #fa7a7aa4;
+    color: #fff;
+}
