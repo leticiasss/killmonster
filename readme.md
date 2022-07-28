@@ -13,3 +13,5 @@ Jogo criado para exercitar o que foi visto até o momento, no curso de VueJS. Cu
 Os logs mais recentes ficam por primeiro.
 
 Nessa aplicação, foi utilizado CSS puro e VueJS, exercitando as diretivas como v-if, v-else, v-for, v-show, @click e afins. Exercitando também methods, computed e watch.
+
+Link do GitHub page: https://leticiasss.github.io/killmonster/
